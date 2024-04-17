@@ -72,7 +72,7 @@ const PasswordGenerator = () => {
   };
 
   return (
-    <div className=" px-4 text-white rounded-md bg-slate-900 h-[90vh]  justify-center  md:h-[70vh] md:min-w-[50vh] gap-2 py-4 flex items-center md:px-10 flex-col">
+    <div className=" px-4 text-white rounded-md bg-slate-900 h-[90vh]  justify-center min-w-full md:h-[70vh] md:min-w-[50vh] gap-2 py-4 flex items-center md:px-10 flex-col">
       <Toaster position="top-center" reverseOrder={false} />
       <h1 className=" text-3xl my-3 mb-8 font-bold">Password Generator</h1>
       <div className=" flex items-center gap-2">
